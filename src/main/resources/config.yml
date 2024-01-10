@@ -1,0 +1,2 @@
+# The message is sent to players in this block radius around the sender. (Default: 50 blocks)
+radius: 50
