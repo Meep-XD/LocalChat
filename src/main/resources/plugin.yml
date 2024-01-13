@@ -3,3 +3,8 @@ version: '${project.version}'
 main: me.meep_xd.localchat.LocalChat
 api-version: '1.20'
 author: Meep_XD
+commands:
+  localchat:
+    description: Access to chat commands
+    usage: /localchat radius <block radius>
+    permission: localchat.global

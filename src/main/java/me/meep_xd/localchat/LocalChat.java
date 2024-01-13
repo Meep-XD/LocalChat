@@ -14,6 +14,9 @@ public final class LocalChat extends JavaPlugin {
 
         // Log a message indicating the plugin has been enabled
         getLogger().info("LocalChat has been enabled!");
+
+        // Register "chat" command
+        getCommand("localchat").setExecutor(new ChatCommand(this));
     }
 
     @Override
